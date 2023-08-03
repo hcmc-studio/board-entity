@@ -65,7 +65,6 @@ class CommentEntity(id: EntityID<Long>) :
         body = dto.body
         writerNickname = dto.writerNickname
         writerPassword = dto.writerPassword
-        writerAddress = dto.writerAddress
     }
 
     private fun fromDataTransferObject(dto: CommentDTO.Put) {
